@@ -2,6 +2,8 @@ apiVersion: v1
 kind: Service
 metadata:
   name: wil-service
+  labels:
+    app: wil
 spec:
   selector:
     app: wil
